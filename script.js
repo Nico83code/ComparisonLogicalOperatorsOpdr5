@@ -1,24 +1,25 @@
-//Deel 1: 50% korting
+// //Deel 1: 50% korting
 const age = 26;
 if (age >= 18 && age <= 25) {
-  console.log("Je krijgt 50% korting!");
+  return console.log("Je krijgt 50% korting!");
 } else {
   console.log("helaas je bent jonger dan 18 of ouder dan 25");
 }
 
-//Deel 2: Ludieke actie!
+// //Deel 2: Ludieke actie! 🎉
 const name = "Bram";
 if (name === "Bram" || name === "Sarah") {
-  console.log("kroeg bestaat 50 jaar! je krijgt een gratis biertje!");
+  return console.log("kroeg bestaat 50 jaar! je krijgt een gratis biertje!");
 } else {
   console.log("kroeg bestaat 50 jaar! biertje kost €0,50");
 }
 
-//Deel 3: Jubileum korting
+//Deel 3: Jubileum korting 👵
 const totalAmount = 25;
-if (totalAmount >= 25) {
+
+if (totalAmount >= 25 && totalAmount < 50) {
   console.log("gratis (vega)bitterballen.");
-} else if (totalAmount >= 50) {
+} else if (totalAmount >= 50 && totalAmount < 100) {
   console.log("gratis portie nachos.");
 } else if (totalAmount >= 100) {
   console.log("gratis flesje champagne.");
